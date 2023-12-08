@@ -1,0 +1,7 @@
+.tiles-container{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    justify-items: center;
+    width: 100%;
+
+}

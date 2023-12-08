@@ -1,0 +1,44 @@
+.tile-container{
+    height: 300px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    position:relative;
+    overflow: hidden;
+}
+.tile-screen{
+    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0.5));
+
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    color:white;
+
+}
+.tile-screen:hover{
+    top: 0px;
+    transition: all ease-out 0.4s;
+
+}
+.movie-name{
+    font-family: Cambria;
+    font-weight: 500;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: large;
+    color: white;
+
+}
+.movie-overview{
+    margin: 10px;
+    font-family: Ubuntu;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

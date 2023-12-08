@@ -1,0 +1,9 @@
+.load-more-btn{
+    margin-left: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: mediumspringgreen;
+    border-radius: 5px;
+    transform: translate(-50%, 0);
+}

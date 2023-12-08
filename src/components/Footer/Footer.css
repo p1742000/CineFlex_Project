@@ -1,0 +1,8 @@
+.footer-container{
+    display: flex;
+    align-items: center;
+    background-color: lightsteelblue;
+}
+.copyright{
+    margin: auto;
+}
